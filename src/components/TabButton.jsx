@@ -1,0 +1,8 @@
+// Native 'children' prop - getting value from <TabButton>value</TabButton>
+export default function TabButton({ children, onSelect }) {
+  return (
+    <li>
+      <button onClick={onSelect}>{children}</button>
+    </li>
+  );
+}
